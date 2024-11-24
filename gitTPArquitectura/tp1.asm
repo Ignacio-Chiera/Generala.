@@ -74,7 +74,7 @@ continue_execution:
     # Por ejemplo, puedes procesar la opción y luego salir del programa si es 0
     beqz $t0, exit         # Si el input es 0, salir del programa
     # Opciones adicionales se implementan aquí...
-
+   #hola
 
 exit:
     li $v0, 10             # Exit syscall
